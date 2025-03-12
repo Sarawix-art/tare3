@@ -1,0 +1,106 @@
+.padre{
+    background-color: blue;
+    padding: 5px;
+    display: grid;  
+    grid-template-areas: "hijo1 hijo1 hijo1 hijo1 hijo1 hijo1 hijo1"
+                         "hijo2 hijo2 hijo2 hijo2 hijo2 hijo2 hijo2"
+                         "hijo3 hijo4 hijo7 hijo7 hijo8 hijo9 hijo9"
+                         "hijo5 hijo6 hijo7 hijo7 hijo8 hijoa hijob"
+                         "hijo5 hijo6 hijo7 hijo7 hijo8 hijoa hijoc"
+                         "hijo5 hijo6 hijo7 hijo7 hijo8 hijoa hijod"
+                         "hijoe hijoe hijoe hijof hijof hijof hijof"
+                         "hijog hijog hijog hijog hijog hijog hijog"
+                        ;
+}
+.padre .hijo1{
+    background-color: papayawhip;
+    margin: 5px;
+    grid-area: hijo1;
+    
+}
+.padre .hijo2{
+    background-color: pink;
+    margin: 5px;
+    grid-area: hijo2;
+   
+    
+}
+.padre .hijo3{
+    background-color: yellowgreen;
+    margin: 5px;
+    grid-area: hijo3;
+}
+.padre .hijo4{
+    background-color: burlywood;
+    margin: 5px;
+    grid-area: hijo4;
+    
+}
+.padre .hijo5{
+    background-color: orange;
+    margin: 5px;
+    grid-area: hijo5;
+}
+.padre .hijo6{
+    background-color: red;
+    margin: 5px;
+    grid-area: hijo6;
+    
+}
+.padre .hijo7{
+    background-color: green;
+    margin: 5px;
+    grid-area: hijo7;
+    
+}
+.padre .hijo8{
+    background-color: aqua;
+    margin: 5px;
+    grid-area: hijo8;
+}
+.padre .hijo9{
+    background-color: yellow;
+    margin: 5px;
+    grid-area: hijo9;
+    
+}
+.padre .hijoa{
+    background-color: grey;
+    margin: 5px;
+    grid-area: hijoa;
+}
+.padre .hijob{
+    background-color: royalblue;
+    margin: 5px;
+    grid-area: hijob;
+    
+}
+.padre .hijoc{
+    background-color: brown;
+    margin: 5px;
+    grid-area: hijoc;
+    
+}
+.padre .hijod{
+    background-color: red;
+    margin: 5px;
+    grid-area: hijod;
+}
+.padre .hijoe{
+    background-color: teal;
+    margin: 5px;
+    grid-area: hijoe;
+    
+}
+.padre .hijof{
+    background-color: fuchsia;
+    margin: 5px;
+    grid-area: hijof;
+    
+}
+.padre .hijog{
+    background-color: lightcoral;
+    margin: 5px;
+    grid-area: hijog;
+    
+}
